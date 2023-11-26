@@ -47,19 +47,19 @@ echo "Olá, $civil! Seu acesso de $cargoVisitante foi liberado!"."<br/>";
 $tipoDeArquivo = '';
 
 switch ($tipoDeArquivo) {
-    case '.txt';
+    case '.txt':
         echo 'Carregando Arquivo.txt'."<br/>";
         break;
-    case '.mp3';
+    case '.mp3':
         echo 'Carregando Arquivo.mp3'."<br/>";
         break;
-    case '.mp4';
+    case '.mp4':
         echo 'Carregando Arquivo.mp4'."<br/>";
         break;
-    case '.jpeg';
+    case '.jpeg':
         echo 'Carregando Arquivo.jpeg'."<br/>";
         break;
-    case null;
+    case null:
         echo 'Nenhum Arquivo Selecionado'."<br/>";
         break;
 };
