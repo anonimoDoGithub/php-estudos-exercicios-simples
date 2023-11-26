@@ -31,5 +31,12 @@ print_r($numero."<br/>");
 $nome = 'Sergio';
 
 $nomeCompleto = $nome;
-$nomeCompleto .= $sobrenome ?? ''; // null cao - se a variavel existe use ela mesma!
+$nomeCompleto .= $sobrenome ?? ' Felipe'; // null cao - se a variavel existe use ela mesma!
 echo $nomeCompleto."<br/>";
+
+$funcionario = 'Sergio';
+$cargo = 'CEO';
+echo "Olá, $funcionario! Seu acesso de $cargo foi liberado!"."<br/>";
+$civil = 'Ana';
+$cargoVisitante .= $cargoVisitante ?? 'Visitante';
+echo "Olá, $civil! Seu acesso de $cargoVisitante foi liberado!"."<br/>";
