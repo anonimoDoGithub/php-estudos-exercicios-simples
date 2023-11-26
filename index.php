@@ -96,7 +96,7 @@ echo "<br/>";
 
 echo '<h2>Lista de Presentes</h2>';
 echo '<ul>';
-foreach($listaDePresentes as $valor) { // Uma outra forma para conseguir pegar CHAVE e VALOR, dentro do ARRAY.
+foreach($listaDePresentes as $valor) { // as $chave => $valor - Uma outra forma para conseguir pegar CHAVE e VALOR, dentro do ARRAY.
     echo "<li>$valor</li>";
 };
 echo '</ul>';
