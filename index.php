@@ -74,4 +74,14 @@ while ($numeroParImpar <= 20) {
         echo "O número $numeroParImpar é IMPAR!"."<br/>";
         $numeroParImpar += 1;
     }
-}
+};
+
+// Loop FOR 1 Etapa - Definir uma variavel antes de começar o loop / 2 Etapa - Efetivamente um condição / 3 Etapa - Ao fim de { CADA RODADA DE BLOCO DE CODIGO }, ele vai EXECUTAR o codigo que eu colocar no [3 Etapa]
+
+for($numeroParImpar = 0; $numeroParImpar <= 20; $numeroParImpar += 1) {
+    if($numeroParImpar % 2 === 0) {
+        echo "O número $numeroParImpar é PAR!"."<br/>";
+    }else {
+        echo "O número $numeroParImpar é IMPAR!"."<br/>";
+    }
+};
