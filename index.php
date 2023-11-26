@@ -43,7 +43,6 @@ $cargoVisitante .= $cargoVisitante ?? 'Visitante';
 echo "Olá, $civil! Seu acesso de $cargoVisitante foi liberado!"."<br/>";
 
 // Condicional SWITCH
-
 $tipoDeArquivo = '';
 
 switch ($tipoDeArquivo) {
@@ -63,3 +62,16 @@ switch ($tipoDeArquivo) {
         echo 'Nenhum Arquivo Selecionado'."<br/>";
         break;
 };
+
+// Loop WHILE
+$numeroParImpar = 0;
+
+while ($numeroParImpar <= 20) {
+    if($numeroParImpar % 2 === 0) {
+        echo "O número $numeroParImpar é PAR!"."<br/>";
+        $numeroParImpar += 1;
+    }else {
+        echo "O número $numeroParImpar é IMPAR!"."<br/>";
+        $numeroParImpar += 1;
+    }
+}
