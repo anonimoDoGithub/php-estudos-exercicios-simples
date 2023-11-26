@@ -88,10 +88,15 @@ for($i = 21; $i <= 40; $i++) { // Nesse exemplo substitui $numeroParImpar por $i
 // Loop FOREACH - Tem como único propósito trabalhar com ARRAYs
 $listaDePresentes = ['Laptop', 'Tablet', 'Smartphone', 'Smartwatch', 'Microphone'];
 print_r($listaDePresentes)."<br/>";
+echo "<br/>";
 
 /* foreach($listaDePresentes as $listaDePresentes) {
     echo "Item da Lista: $listaDePresentes"."<br/>";
 }; */
-foreach($listaDePresentes as $chave => $valor) { // Uma outra forma para conseguir pegar CHAVE e VALOR, dentro do ARRAY.
-    echo "Item da Lista $chave:  $valor"."<br/>";
-}
+
+echo '<h2>Lista de Presentes</h2>';
+echo '<ul>';
+foreach($listaDePresentes as $valor) { // Uma outra forma para conseguir pegar CHAVE e VALOR, dentro do ARRAY.
+    echo "<li>$valor</li>";
+};
+echo '</ul>';
