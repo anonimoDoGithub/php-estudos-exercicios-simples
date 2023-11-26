@@ -41,3 +41,25 @@ $civil = 'Ana';
 $cargoVisitante = null;
 $cargoVisitante .= $cargoVisitante ?? 'Visitante';
 echo "Olá, $civil! Seu acesso de $cargoVisitante foi liberado!"."<br/>";
+
+// Condicional SWITCH
+
+$tipoDeArquivo = '';
+
+switch ($tipoDeArquivo) {
+    case '.txt';
+        echo 'Carregando Arquivo.txt'."<br/>";
+        break;
+    case '.mp3';
+        echo 'Carregando Arquivo.mp3'."<br/>";
+        break;
+    case '.mp4';
+        echo 'Carregando Arquivo.mp4'."<br/>";
+        break;
+    case '.jpeg';
+        echo 'Carregando Arquivo.jpeg'."<br/>";
+        break;
+    case null;
+        echo 'Nenhum Arquivo Selecionado'."<br/>";
+        break;
+};
