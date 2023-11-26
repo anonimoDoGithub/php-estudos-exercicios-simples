@@ -9,17 +9,11 @@ if($idade < 18) {
 };
 
 $alunoA = 'Maria';
-$alunoB = 'João';
 
 $p1AlunoA = 9;
 $p2AlunoA = 9;
 $p3AlunoA = 7;
 $pSomaAlunoA = $p1AlunoA + $p2AlunoA + $p3AlunoA;
-
-$p1AlunoB = 9;
-$p2AlunoB = 9;
-$p3AlunoB = 9;
-$pSomaAlunoB = $p1AlunoB + $p2AlunoB + $p3AlunoB;
 
 if ($pSomaAlunoA / 3 >= 8) {
     print_r("Parabéns <strong>$alunoA</strong> você <strong>PASSOU DE ANO!</strong>"."<br/>");
