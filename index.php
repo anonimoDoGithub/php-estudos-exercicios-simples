@@ -31,5 +31,5 @@ print_r($numero."<br/>");
 $nome = 'Sergio';
 
 $nomeCompleto = $nome;
-$nomeCompleto .= $sobrenome ?? '';
+$nomeCompleto .= $sobrenome ?? ''; // null cao - se a variavel existe use ela mesma!
 echo $nomeCompleto."<br/>";
