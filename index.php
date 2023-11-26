@@ -38,5 +38,6 @@ $funcionario = 'Sergio';
 $cargo = 'CEO';
 echo "Olá, $funcionario! Seu acesso de $cargo foi liberado!"."<br/>";
 $civil = 'Ana';
-$cargoVisitante .= $cargoVisitante ?? 'Visitante';
-echo "Olá, $civil! Seu acesso de $cargoVisitante foi liberado!"."<br/>";
+$visitante = null;
+$visitante .= $visitante ?? 'Visitante';
+echo "Olá, $civil! Seu acesso de $visitante foi liberado!"."<br/>";
