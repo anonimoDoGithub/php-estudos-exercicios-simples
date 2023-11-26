@@ -25,4 +25,11 @@ if ($pSomaAlunoA / 3 >= 8) {
 $numero = 2 % 2 === 0 ? "O número é par!" : "O número é impar!" ;
 echo $numero."<br/>";
 $numero = 3 % 2 === 0 ? "O número é par!" : "O número é impar!" ;
-print_r($numero)."<br/>";
+print_r($numero."<br/>");
+
+// NULL CAO - PHP 7.4 ou superior
+$nome = 'Sergio';
+
+$nomeCompleto = $nome;
+$nomeCompleto .= $sobrenome ?? '';
+echo $nomeCompleto."<br/>";
