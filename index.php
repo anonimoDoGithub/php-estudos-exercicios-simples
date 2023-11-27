@@ -101,9 +101,17 @@ foreach($listaDePresentes as $valor) { // as $chave => $valor - Uma outra forma 
 };
 echo '</ul>';
 
-// Exercícios Condicionais e Loops
+// Exercícios 1 - Condicionais e Loops
 for($a = 0; $a < 10; $a++) {
     for($i = 0; $i < 10; $i++) {
+        echo '-';
+    }
+    echo '<br/>';
+}
+
+// Exercícios 2 - Condicionais e Loops
+for($a = 1; $a <= 10; $a++) {
+    for($i = 0; $i < $a; $i++) {
         echo '-';
     }
     echo '<br/>';
